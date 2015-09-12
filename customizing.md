@@ -45,6 +45,7 @@ You can create a `config.json` file in the same folder as the `mdwiki.html` file
 	* Changes the title of the webpage.
 	* Default: `"MDWiki"`
 	* Note - this parameter does not change the title of your wiki in Google search results. Edit `mdwiki.html` directly to correct this. ([Issue #58](https://github.com/Dynalon/mdwiki/issues/58)) 
+  * "customCss": use a custom css-file to style the wiki
 
 A sample `config.json` might thus look like this:
 
@@ -53,7 +54,8 @@ A sample `config.json` might thus look like this:
     "useSideMenu": true,
     "lineBreaks": "gfm",
     "additionalFooterText": "All content and images &copy; by John Doe",
-    "anchorCharacter": "#"
+    "anchorCharacter": "#",
+    "customCss": "myStyle.css" 
 }
 ```
 
